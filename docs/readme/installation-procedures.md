@@ -116,7 +116,7 @@ If you're new to cloning with Git, refer to [GitHub's Cloning Guide](https://hel
 
       The script will try to install additional packages \(for certain distributions\) and download precompiled binaries of third party libraries. It will also build one of the libraries on your system \(LinuxNativeDialogs or LND for short\).
 
-      You should see \*\* SUCCESS \*\* message after running this step. If you don't, take a look into BuildThirdParty.log located in Engine/Build/BatchFiles/Linux directory.
+      You should see **SUCCESS**  message after running this step. If you don't, take a look into BuildThirdParty.log located in Engine/Build/BatchFiles/Linux directory.
 
    3. After the successful setup, you can generate makefiles \(and CMakelists.txt\).
 

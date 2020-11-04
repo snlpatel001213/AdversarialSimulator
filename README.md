@@ -7,5 +7,5 @@ description: >-
 
 # Adversarial Simulator
 
-This repository contains the code, datasets, models, test results and a video demo for the paper 
+This repository contains the code, datasets, models, test results and a video demo for the paper
 

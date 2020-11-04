@@ -4,6 +4,6 @@
 
 ## docs <a id="readme"></a>
 
-* [docs](readme/docs/README.md)
-  * [Installation Procedures](readme/docs/installation-procedures.md)
+* [docs](readme/readme/README.md)
+  * [Installation Procedures](readme/readme/installation-procedures.md)
 

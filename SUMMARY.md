@@ -6,4 +6,8 @@
 
 * [docs](readme/readme/README.md)
   * [Installation Procedures](readme/readme/installation-procedures.md)
+  * [Setting Up Environment](readme/readme/setting-up-environment/README.md)
+    * [Environment - 1](readme/readme/setting-up-environment/environment-1.md)
+    * [Environment - 2](readme/readme/setting-up-environment/environment-2.md)
+  * [Add ons](readme/readme/add-ons.md)
 

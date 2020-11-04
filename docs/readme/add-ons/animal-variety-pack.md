@@ -1,8 +1,4 @@
----
-description: ANIMAL VARIETY PACK
----
-
-# ANIMAL VARIETY PACK
+# Animal Variety Pack
 
 Nice Assortment of 5 animals to populate your projects. This set of animals coming from our larger library \(24 animals\) will be perfect to see if they fit in your projects before deciding if you need some more from us.
 

@@ -1,7 +1,8 @@
 ---
 description: >-
   Adversarial Simulator allows one to simulate adversarial attacks in the
-  virtual environment within unreal engine and inference with Nvidia DRIVE SDK.
+  virtual environment within the Unreal Engine and inference with Nvidia DRIVE
+  SDK.
 ---
 
 # Adversarial Simulator

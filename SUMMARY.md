@@ -4,14 +4,14 @@
 
 ## docs <a id="readme"></a>
 
-* [readme](readme/docs/README.md)
-  * [Installation Procedures](readme/docs/installation-procedures.md)
-  * [Setting Up Environment](readme/docs/setting-up-environment/README.md)
-    * [Environment - 1](readme/docs/setting-up-environment/environment-1.md)
-    * [Environment - 2](readme/docs/setting-up-environment/environment-2.md)
-  * [Add Ons](readme/docs/add-ons/README.md)
-    * [Modular Roads](readme/docs/add-ons/modular-roads.md)
-    * [City - Object Pack](readme/docs/add-ons/city-object-pack.md)
-  * [Sample Data](readme/docs/sample-data.md)
-  * [API](readme/docs/api.md)
+* [readme](readme/readme/README.md)
+  * [Installation Procedures](readme/readme/installation-procedures.md)
+  * [Setting Up Environment](readme/readme/setting-up-environment/README.md)
+    * [Environment - 1](readme/readme/setting-up-environment/environment-1.md)
+    * [Environment - 2](readme/readme/setting-up-environment/environment-2.md)
+  * [Add Ons](readme/readme/add-ons/README.md)
+    * [Modular Roads](readme/readme/add-ons/modular-roads.md)
+    * [City - Object Pack](readme/readme/add-ons/city-object-pack.md)
+  * [Sample Data](readme/readme/sample-data.md)
+  * [API](readme/readme/api.md)
 

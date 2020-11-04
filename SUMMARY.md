@@ -2,8 +2,8 @@
 
 * [Adversarial Simulator](README.md)
 
-## docs
+## docs <a id="readme"></a>
 
-* [docs](docs/docs/README.md)
-  * [Installation Procedures](docs/docs/installation-procedures.md)
+* [docs](readme/docs/README.md)
+  * [Installation Procedures](readme/docs/installation-procedures.md)
 

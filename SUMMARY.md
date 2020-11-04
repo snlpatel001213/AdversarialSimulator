@@ -4,7 +4,7 @@
 
 ## docs <a id="readme"></a>
 
-* [docs](readme/docs/README.md)
+* [readme](readme/docs/README.md)
   * [Installation Procedures](readme/docs/installation-procedures.md)
   * [Setting Up Environment](readme/docs/setting-up-environment/README.md)
     * [Environment - 1](readme/docs/setting-up-environment/environment-1.md)

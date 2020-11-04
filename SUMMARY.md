@@ -10,4 +10,6 @@
     * [Environment - 1](readme/readme/setting-up-environment/environment-1.md)
     * [Environment - 2](readme/readme/setting-up-environment/environment-2.md)
   * [Add ons](readme/readme/add-ons.md)
+  * [Sample Data](readme/readme/sample-data.md)
+  * [API](readme/readme/api.md)
 

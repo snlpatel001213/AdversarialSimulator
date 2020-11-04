@@ -4,14 +4,12 @@ description: Adversarial simulator installation procedure.
 
 # Installation Procedures
 
-Adversarial simulator depends on two components 1\) Unreal engine 2\) Nvidia Drive SDK
+**Adversarial simulator depends on two components 1\) Unreal engine 2\) Nvidia Drive SDK**
 
 As the Nvidia Drive SDK is only compitible with ubuntu - 18.04 it is advisable to install the unreal engine and Nvidia Drive SDK on to ubuntu. If you prefer to install the unreal engine over windows then you will be able to only batch process output of Unreal Engine to Nvidia Drive SDK.
 
 {% tabs %}
 {% tab title="Install Unreal Engine" %}
-
-
 ## 1.  On Windows
 
 1. [Create an Epic Games Account \(if you don't already have one\)](https://docs.unrealengine.com/en-US/GettingStarted/Installation/index.html#creatinganepicgamesaccount)
@@ -22,7 +20,7 @@ As the Nvidia Drive SDK is only compitible with ubuntu - 18.04 it is advisable t
 
 ## **2.  On Linux**
 
-Currently, Unreal **** don't supply a binary installer of UE4 for Linux users. The good news is that you can compile a binary of Unreal Engine from the same source code that we use to develop the engine. If you want to access our source code, you'll have to register for an Epic Games account, sign up for a GitHub account, associate your GitHub username with your Epic Games account, and set up Git on your Linux machine.
+Currently, Unreal _\*\*_ don't supply a binary installer of UE4 for Linux users. The good news is that you can compile a binary of Unreal Engine from the same source code that we use to develop the engine. If you want to access our source code, you'll have to register for an Epic Games account, sign up for a GitHub account, associate your GitHub username with your Epic Games account, and set up Git on your Linux machine.
 
 ### 1. Registering for an Epic Games Account
 
@@ -48,18 +46,16 @@ Now that you've registered for an Epic Games account, you're ready to work throu
 
    ![GItHub\_Header.PNG](https://docs.unrealengine.com/Images/Platforms/Linux/BeginnerLinuxDeveloper/SettingUpAnUnrealWorkflow/GItHub_Header.jpg)
 
-2. Go to [your Epic Games account](https://accounts.unrealengine.com/login) and click **Connected Accounts**.  
+2. Go to [your Epic Games account](https://accounts.unrealengine.com/login) and click **Connected Accounts**.
 
+![Connected\_Accounts-1.PNG](https://docs.unrealengine.com/Images/Platforms/Linux/BeginnerLinuxDeveloper/SettingUpAnUnrealWorkflow/Connected_Accounts-1.jpg)
 
-   ![Connected\_Accounts-1.PNG](https://docs.unrealengine.com/Images/Platforms/Linux/BeginnerLinuxDeveloper/SettingUpAnUnrealWorkflow/Connected_Accounts-1.jpg)
-
-3. Link your GitHub username by clicking **Connect** under the GitHub icon.
-4. To authorize the connection click **Authorize EpicGames**.
+1. Link your GitHub username by clicking **Connect** under the GitHub icon.
+2. To authorize the connection click **Authorize EpicGames**.
 
 **Section Result**
 
-By now, you've registered for an Epic Games account and linked it with your GitHub username. Also, you've installed Git and you're ready for the next step, where you'll fork and clone the UE4 source code from the Unreal Engine GitHub repository.  
-
+By now, you've registered for an Epic Games account and linked it with your GitHub username. Also, you've installed Git and you're ready for the next step, where you'll fork and clone the UE4 source code from the Unreal Engine GitHub repository.
 
 ### 2 - Downloading UE4 on Linux
 
@@ -77,14 +73,11 @@ If don't want to clone the Unreal Engine repository with Git, you can use the **
 
    ![CloneorDownloadButton.png](https://docs.unrealengine.com/Images/Platforms/Linux/BeginnerLinuxDeveloper/SettingUpAnUnrealWorkflow/CloneorDownloadButton.jpg)
 
-3. Click **Download ZIP** to download the Unreal Engine source code.  
+3. Click **Download ZIP** to download the Unreal Engine source code.
 
+![DownloadSourceButton.png](https://docs.unrealengine.com/Images/Platforms/Linux/BeginnerLinuxDeveloper/SettingUpAnUnrealWorkflow/DownloadSourceButton.jpg)
 
-   ![DownloadSourceButton.png](https://docs.unrealengine.com/Images/Platforms/Linux/BeginnerLinuxDeveloper/SettingUpAnUnrealWorkflow/DownloadSourceButton.jpg)
-
-4. Finally, decompress `UnrealEngine-(branch_name).zip` onto your hard disk.
-
-
+1. Finally, decompress `UnrealEngine-(branch_name).zip` onto your hard disk.
 
 #### Cloning with Git <a id="cloningwithgit"></a>
 
@@ -94,21 +87,19 @@ If you're new to cloning with Git, refer to [GitHub's Cloning Guide](https://hel
 
    ![Git\_Repository-1.PNG](https://docs.unrealengine.com/Images/Platforms/Linux/BeginnerLinuxDeveloper/SettingUpAnUnrealWorkflow/Git_Repository-1.jpg)
 
-2. Click **Clone or download**.  
+2. Click **Clone or download**.
 
+![CloneorDownloadButton.png](https://docs.unrealengine.com/Images/Platforms/Linux/BeginnerLinuxDeveloper/SettingUpAnUnrealWorkflow/CloneorDownloadButton.jpg)
 
-   ![CloneorDownloadButton.png](https://docs.unrealengine.com/Images/Platforms/Linux/BeginnerLinuxDeveloper/SettingUpAnUnrealWorkflow/CloneorDownloadButton.jpg)
-
-3. Click the **Copy URL** button to copy the clone URL for the repository.
+1. Click the **Copy URL** button to copy the clone URL for the repository.
 
    ![CopyHTTPS.png](https://docs.unrealengine.com/Images/Platforms/Linux/BeginnerLinuxDeveloper/SettingUpAnUnrealWorkflow/CopyHTTPS.jpg)
 
-4. Open Git Bash, type `git clone`, and paste the URL you copied in the previous step.
-   1. Clone EpicGames/UnrealEngine repository
+2. Open Git Bash, type `git clone`, and paste the URL you copied in the previous step. 1. Clone EpicGames/UnrealEngine repository
 
-      `git clone https://github.com/EpicGames/UnrealEngine -b release`
+   `git clone https://github.com/EpicGames/UnrealEngine -b release`
 
-   2. Run Setup.sh once.
+   1. Run Setup.sh once.
 
       `cd UnrealEngine`
 
@@ -118,7 +109,7 @@ If you're new to cloning with Git, refer to [GitHub's Cloning Guide](https://hel
 
       You should see \*\* SUCCESS \*\* message after running this step. If you don't, take a look into BuildThirdParty.log located in Engine/Build/BatchFiles/Linux directory.
 
-   3. After the successful setup, you can generate makefiles \(and CMakelists.txt\).
+   2. After the successful setup, you can generate makefiles \(and CMakelists.txt\).
 
       `./GenerateProjectFiles.sh`
 {% endtab %}
@@ -135,9 +126,7 @@ The NVIDIA SDK Manager gives access to all the necessary software for all active
 * For further instructions on how to upgrade DRIVE Software, please refer to the [DRIVE Documentation](https://docs.nvidia.com/drive/drive_os_5.1.6.1L/drive-qsg/index.html)
 
 Install through SDK manager  
-      [Install through NVIDIA SDK Manager](https://developer.nvidia.com/nvsdk-manager)      [  DRIVE Software 10.0 Release Notes](https://developer.nvidia.com/DRIVE/secure/docs/NVIDIA_DRIVE_Software_Release_Notes_10.0.pdf)     
+[Install through NVIDIA SDK Manager](https://developer.nvidia.com/nvsdk-manager) [ DRIVE Software 10.0 Release Notes](https://developer.nvidia.com/DRIVE/secure/docs/NVIDIA_DRIVE_Software_Release_Notes_10.0.pdf)
 {% endtab %}
 {% endtabs %}
-
-
 

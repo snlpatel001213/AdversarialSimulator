@@ -2,16 +2,16 @@
 
 * [Adversarial Simulator](README.md)
 
-## docs <a id="readme"></a>
+## docs
 
-* [readme](readme/readme/README.md)
-  * [Installation Procedures](readme/readme/installation-procedures.md)
-  * [Setting Up Environment](readme/readme/setting-up-environment/README.md)
-    * [Environment - 1](readme/readme/setting-up-environment/environment-1.md)
-    * [Environment - 2](readme/readme/setting-up-environment/environment-2.md)
-  * [Add Ons](readme/readme/add-ons/README.md)
-    * [Modular Roads](readme/readme/add-ons/modular-roads.md)
-    * [City - Object Pack](readme/readme/add-ons/city-object-pack.md)
-  * [Sample Data](readme/readme/sample-data.md)
-  * [API](readme/readme/api.md)
+* [readme](docs/readme/README.md)
+  * [Installation Procedures](docs/readme/installation-procedures.md)
+  * [Setting Up Environment](docs/readme/setting-up-environment/README.md)
+    * [Environment - 1](docs/readme/setting-up-environment/environment-1.md)
+    * [Environment - 2](docs/readme/setting-up-environment/environment-2.md)
+  * [Add Ons](docs/readme/add-ons/README.md)
+    * [Modular Roads](docs/readme/add-ons/modular-roads.md)
+    * [City - Object Pack](docs/readme/add-ons/city-object-pack.md)
+  * [Sample Data](docs/readme/sample-data.md)
+  * [API](docs/readme/api.md)
 

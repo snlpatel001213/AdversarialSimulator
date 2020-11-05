@@ -4,7 +4,7 @@
 
 ## docs
 
-* [readme](docs/readme/README.md)
+* [Resources](docs/readme/README.md)
   * [Installation Procedures](docs/readme/installation-procedures.md)
   * [Setting Up Environment](docs/readme/setting-up-environment/README.md)
     * [Environment - 1](docs/readme/setting-up-environment/environment-2.md)

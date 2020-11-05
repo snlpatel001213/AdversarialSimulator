@@ -6,9 +6,11 @@ A Simulated Environment Approach to Investigate Effect of Adversarial Perturbati
 =============================================================================================================================
 
   ---------------------- ---------------------
-  Sunil Patel\           Pallab Maji\
-  Nvidia Corporation\    Nvidia Corporation\
-  <supatel@nvidia.com>   pmaji\@nvidia.com
+  
+|---|---|
+| supatel@nvidia.com  | pmaji@nvidia.com  |
+| Sunil Patel  | Pallab Maji  |
+
 
   ---------------------- ---------------------
 
@@ -26,6 +28,3 @@ attacks do not affect all traffic signs uniformly. Attack found to be
 affecting classification in static scenes are not similarly affecting in
 the moving vehicle scenarios. However, some attack found to completely
 block the identification of certain traffic signs.**
-
-Camera Placement
-

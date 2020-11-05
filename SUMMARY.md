@@ -9,6 +9,7 @@
   * [Setting Up Environment](docs/readme/setting-up-environment/README.md)
     * [Environment - 1](docs/readme/setting-up-environment/environment-2.md)
     * [Environment - 2](docs/readme/setting-up-environment/environment-1.md)
+  * [Recording Sessions](docs/readme/recording-sessions.md)
   * [Add Ons](docs/readme/add-ons/README.md)
     * [Animal Variety Pack](docs/readme/add-ons/animal-variety-pack.md)
     * [Modular Roads](docs/readme/add-ons/modular-roads.md)

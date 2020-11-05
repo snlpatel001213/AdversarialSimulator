@@ -6,7 +6,7 @@ A Simulated Environment Approach to Investigate Effect of Adversarial Perturbati
 =============================================================================================================================
 
   ---------------------- ---------------------
-  
+| Sunil Patel | Pallab Maji |
 |---|---|
 | supatel@nvidia.com  | pmaji@nvidia.com  |
 | Sunil Patel  | Pallab Maji  |

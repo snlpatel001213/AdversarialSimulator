@@ -11,7 +11,7 @@ Unreal engine arranges the environements in form of the MAPS. Much like **Arrays
 
 1. Environment -1**:** 
    1. Has tracks as shown in the research paper
-   2. It has objects like animals, wooden logs, trees, shrubs, roads, cars, trucks, buildings etc.. 
+   2. It has objects like animals, wooden logs, trees, shrubs, roads, cars, trucks, buildings etc. 
    3. Can be used for the repetitive control environment experiment.    
 2. Environment -2: Can be use
 

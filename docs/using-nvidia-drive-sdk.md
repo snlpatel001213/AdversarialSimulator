@@ -2,7 +2,7 @@
 
 
 
-NVIDIA DRIVE™ Perception enables robust perception of obstacles, paths, and wait conditions \(such as stop signs and traffic lights\) right out of the box with an extensive set of pre-processing, post-processing, and fusion processing modules. Together with NVIDIA DRIVE™ Networks, these form an end-to-end perception pipeline for autonomous driving that uses data from multiple sensor types \(e.g. camera, radar, LIDAR\). DRIVE Perception makes it possible for developers to create new perception, sensor fusion, mapping and/or planning/control/actuation autonomous vehicle \(AV\) functionalities without having to first develop and validate the underlying perception building blocks.  
+NVIDIA DRIVE™ Perception enables the robust perception of obstacles, paths, and wait conditions \(such as stop signs and traffic lights\) right out of the box with an extensive set of pre-processing, post-processing, and fusion processing modules. Together with NVIDIA DRIVE™ Networks, these form an end-to-end perception pipeline for autonomous driving that uses data from multiple sensor types \(e.g. camera, radar, LIDAR\). DRIVE Perception makes it possible for developers to create new perception, sensor fusion, mapping, and/or planning/control/actuation autonomous vehicle \(AV\) functionalities without having to first develop and validate the underlying perception building blocks.  
   
 
 

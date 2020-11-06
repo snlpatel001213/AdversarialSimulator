@@ -2,9 +2,9 @@
 
 ## Adversarial Simulator
 
-Adversarial Simulator allows one to simulate adversarial attacks in the virtual environment within the Unreal Engine and inference with Nvidia DRIVE SDK. This repository contains the code, assets, eample datasets, models, test results and a video demo for the paper :
+Adversarial Simulator allows one to simulate adversarial attacks in the virtual environment within the Unreal Engine and inference with Nvidia DRIVE SDK. This repository contains the code, assets, example datasets, models, test results, and a video demo for the paper :
 
-## A Simulated Environment Approach to Investigate Effect of Adversarial Perturbations on Traffic Signs
+## A Simulated Environment Approach to Investigate the effect of Adversarial Perturbations on Traffic Signs
 
 | Sunil Patel | Pallab Maji |
 | :---: | :---: |
@@ -13,27 +13,27 @@ Adversarial Simulator allows one to simulate adversarial attacks in the virtual 
 
 _**Abstract**_ **-To study effect of adversarial attack environment must be the same. Autonomous driving includes mainly 5 phases sense, perceive, map, plan and Drive. Autonomous Vehicle 'sense' the surrounding with the help of Cameras and Lidars. Deep Learning techniques are considered Blackbox and found to be vulnerable to adversarial attach. In this research we study the effect of various known adversarial attack in the Unreal Engine based high-fidelity real-time Ray-Traced simulated environment. This experiment seeks answer to questions like if adversarial attacks works in moving vehicle scenario and can an unknown network be targeted. We found that existing Blackbox and Whitebox attacks do not affect all traffic signs uniformly. Attack found to be affecting classification in static scenes are not similarly affecting in the moving vehicle scenarios. However, some attack found to completely block the identification of certain traffic signs.**
 
-## This documentation covers vital  aspect of the project including ;
+## This documentation covers a vital  aspect of the project including ;
 
 ### 1. Installation procedures : 
 
-Adversarial simulator requires two components to be installed including an Unreal Engine  and Nvidia Drive SDK. An Unreal Engine required for to generate a real-like scenario.
+An Adversarial simulator requires two components to be installed including an Unreal Engine and Nvidia Drive SDK. An Unreal Engine required to generate a real-like scenario.
 
-### 2.  Setting up the Environament
+### 2.  Setting up the Environment
 
-Post   installtion we require to  setup the environamnt so that different scenarios can be generated. In unreal engine such scenarios are organised in Maps. adversarial Simulator provides two maps. 
+Post-installation we require to set up the environment so that different scenarios can be generated. In Unreal Engine, such scenarios are organized in Maps. adversarial Simulator provides two maps. 
 
 #### MAP - 1 
 
-It has basic components for the rcontrolled testing , tracks are organized in parallel for testing plurality of scenarios in parallel, keeping the overall environamnt the same.  
+It has basic components for controlled testing, tracks are organized in parallel for a testing plurality of scenarios in parallel, keeping the overall environment the same.  
 
 #### MAP - 2 
 
-It is consisting of vast open land with various objects like buildings, water , over bridges, traffic lights, traffic signals, roadside objects, various kind of animals etc. This map can be used for variety of testing.
+It is consisting of vast open land with various objects like buildings, water, over bridges, traffic lights, traffic signals, roadside objects, various kinds of animals, etc. This map can be used for a variety of testing.
 
 ### 3. Compiling Drivenet samples
 
-Drive net sample comes up with video inferecne apabilities cby default. additionally if you want to predict on Images then you need to modify samples. This section covers all the basic procedure for compilation and modifying the samples to r
+Drive net sample comes up with video inference capabilities by default. additionally, if you want to predict Images then you need to modify samples. This section covers all the basic procedure for compilation and modifying the samples to r
 
 ### 4. Add ons 
 

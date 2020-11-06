@@ -9,7 +9,7 @@
 * [Setting Up Environment](docs/setting-up-environment/README.md)
   * [Environment - 1](docs/setting-up-environment/environment-2.md)
   * [Environment - 2](docs/setting-up-environment/environment-1.md)
-* [API](docs/api.md)
+* [Using Nvidia DRIVE SDK](docs/using-nvidia-drive-sdk.md)
 * [Add Ons](docs/add-ons/README.md)
   * [Animal Variety Pack](docs/add-ons/animal-variety-pack.md)
   * [Modular Roads](docs/add-ons/modular-roads.md)

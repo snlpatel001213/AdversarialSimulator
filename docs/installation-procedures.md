@@ -6,7 +6,7 @@ description: Adversarial simulator installation procedure.
 
 **Adversarial simulator depends on two components 1\) Unreal engine 2\) Nvidia Drive SDK**
 
-As the Nvidia Drive SDK is only compitible with ubuntu - 18.04 it is advisable to install the unreal engine and Nvidia Drive SDK on to ubuntu. If you prefer to install the unreal engine over windows then you will be able to only batch process output of Unreal Engine to Nvidia Drive SDK.
+As the Nvidia Drive SDK is only compatible with ubuntu - 18.04 it is advisable to install the unreal engine and Nvidia Drive SDK on to ubuntu. If you prefer to install the unreal engine over windows then you will be able to only batch process output of Unreal Engine to Nvidia Drive SDK.
 
 {% tabs %}
 {% tab title="Install Unreal Engine" %}

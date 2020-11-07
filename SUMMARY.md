@@ -14,6 +14,7 @@
   * [Scanned 3D People Pack](docs/add-ons/scanned-3d-people-pack.md)
   * [Animal Variety Pack](docs/add-ons/animal-variety-pack.md)
   * [Modular Roads](docs/add-ons/modular-roads.md)
+  * [Vehicle Variety Pack](docs/add-ons/vehicle-variety-pack.md)
   * [City - Object Pack](docs/add-ons/city-object-pack.md)
 * [Sample Data](docs/sample-data.md)
 

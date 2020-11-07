@@ -1,6 +1,6 @@
 # Environment - 1
 
-This environment is well suited for a repetitive set of experimentation over a set of signs. Detail of this experiment is as described in the research paper.  
+This environment is well suited for a repetitive set of experimentation over a set of signs. Details of this experiment are as described in the research paper.  
 
 ![](../../.gitbook/assets/map1.png)
 

@@ -31,11 +31,11 @@ dvc pull
 
 If you're interested in contributing  to this project, refer the following guidelines:
 
-Identify larger file then 50MB, these files will be sent to DVC. Following is the procedure to identify larger files recursively in windows and Linux:
+Identify a larger file than 50MB, these files will be sent to DVC. Following is the procedure to identify larger files recursively in windows and Linux:
 
 {% tabs %}
 {% tab title="Windows" %}
-Use Swiss army knife tool provided with the repository:
+Use the Swiss army knife tool provided with the repository:
 
 ```text
 .\tools\sfk197.exe list -big -mbytes \path\to\content\folder
@@ -148,6 +148,8 @@ Following is the output of the command `tree -d -L 2.` It shows the directory st
 ├── scripts # C++ scripts for video and frame based inference
 └── tools # Swiss army knife toolbox for windows file management
 ```
+
+## Other sign related assets   
 
 ## This documentation covers a vital  aspect of the project including ;
 

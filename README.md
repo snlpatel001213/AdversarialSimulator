@@ -13,6 +13,70 @@ Adversarial Simulator allows one to simulate adversarial attacks in the virtual 
 
 _**Abstract**_ **-To study effect of adversarial attack environment must be the same. Autonomous driving includes mainly 5 phases sense, perceive, map, plan and Drive. Autonomous Vehicle 'sense' the surrounding with the help of Cameras and Lidars. Deep Learning techniques are considered Blackbox and found to be vulnerable to adversarial attach. In this research we study the effect of various known adversarial attack in the Unreal Engine based high-fidelity real-time Ray-Traced simulated environment. This experiment seeks answer to questions like if adversarial attacks works in moving vehicle scenario and can an unknown network be targeted. We found that existing Blackbox and Whitebox attacks do not affect all traffic signs uniformly. Attack found to be affecting classification in static scenes are not similarly affecting in the moving vehicle scenarios. However, some attack found to completely block the identification of certain traffic signs.**
 
+## Cloning the Code
+
+The experimentation included many high-resolution assets and some-time single file span above 50 MB. 50 Mb is the size limitation imposed by Github for any single fine. Hence to manage larger files this project uses`DVC (Data Version Control)`an Open-source Version Control System for Machine Learning Projects. [`DVC`](https://dvc.org/) allow us to share the large files with git easily
+
+#### Git clone base project
+
+```text
+git clone 
+```
+
+identify large texture files
+
+```text
+dvc pull
+```
+
+If you're interested in contributing  to this project, refer the following guidelines:
+
+Identify larger file then 50MB, these files will be sent to DVC. Following is the procedure to identify larger files recursively in windows and Linux:
+
+{% tabs %}
+{% tab title="Windows" %}
+Use Swiss army knife tool provided with the repository:
+
+```text
+.\tools\sfk197.exe list -big -mbytes \path\to\content\folder
+```
+
+If you have not downloaded then download and setup [DVC for windows](https://github-production-release-asset-2e65be.s3.amazonaws.com/83878269/a0e69c80-186a-11eb-8551-3fba89b66ead?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20201107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201107T053708Z&X-Amz-Expires=300&X-Amz-Signature=4996ba67919c7313285fbef8c4dad539c216216ef57ec74fcefdcd7a619442c2&X-Amz-SignedHeaders=host&actor_id=6880272&key_id=0&repo_id=83878269&response-content-disposition=attachment%3B%20filename%3Ddvc-1.9.1.exe&response-content-type=application%2Foctet-stream)
+
+Commit larger files to DVC,
+
+```text
+
+```
+
+Exclude files to git which are committed to DVC. This command will be provided by DVC prompt post committing files to DVC
+
+Push files to DVC
+
+Push remaining files to Github
+{% endtab %}
+
+{% tab title="Linux" %}
+Use bash command to find larger files
+
+
+
+Commit larger files to DVC,
+
+```text
+
+```
+
+
+
+Exclude files to git which are committed to DVC. This command will be provided by DVC prompt post committing files to DVC
+
+Push files to DVC
+
+Push remaining files to Git
+{% endtab %}
+{% endtabs %}
+
 ## This documentation covers a vital  aspect of the project including ;
 
 ### 1. Installation procedures : 

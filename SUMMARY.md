@@ -11,10 +11,9 @@
   * [Environment - 2](docs/setting-up-environment/environment-1.md)
 * [Using Nvidia DRIVE SDK](docs/using-nvidia-drive-sdk.md)
 * [Add Ons](docs/add-ons/README.md)
-  * [Scanned 3D People Pack](docs/add-ons/scanned-3d-people-pack.md)
-  * [Animal Variety Pack](docs/add-ons/animal-variety-pack.md)
   * [Modular Roads](docs/add-ons/modular-roads.md)
+  * [Animal Variety Pack](docs/add-ons/animal-variety-pack.md)
+  * [Scanned 3D People Pack](docs/add-ons/scanned-3d-people-pack.md)
   * [Vehicle Variety Pack](docs/add-ons/vehicle-variety-pack.md)
   * [City - Object Pack](docs/add-ons/city-object-pack.md)
-* [Sample Data](docs/sample-data.md)
 

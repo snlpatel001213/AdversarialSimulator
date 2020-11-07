@@ -24,7 +24,7 @@ Unreal engine arranges the environments in form of the MAPS. Much like **Arrays*
 
 By default, Maps are present in the`content/map`directory.
 
-Load any of the maps of choice 
+Load any of the maps of choice.
 
 \*\*\*\*
 

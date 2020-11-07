@@ -46,12 +46,17 @@ If you have not downloaded then download and setup [DVC for windows](https://git
 Commit larger files to DVC,
 
 ```text
-
+dvc add \path\to\the\large\file 
 ```
 
 Exclude files to git which are committed to DVC. This command will be provided by DVC prompt post committing files to DVC
 
 Push files to DVC
+
+```text
+dvc commit -m "the most imp file added"
+dvc push 
+```
 
 Push remaining files to Github
 {% endtab %}
@@ -59,23 +64,90 @@ Push remaining files to Github
 {% tab title="Linux" %}
 Use bash command to find larger files
 
-
-
-Commit larger files to DVC,
-
 ```text
-
+sudo find ./path/to/AdversarialSiumator/dir -type f -printf "%s\t%p\n" | sort -n | tail -1
 ```
 
+Commit larger files to DVC
 
+```
+dvc add \path\to\the\large\file 
+```
 
 Exclude files to git which are committed to DVC. This command will be provided by DVC prompt post committing files to DVC
 
 Push files to DVC
 
-Push remaining files to Git
+```text
+dvc commit -m "the most imp file added"
+dvc push 
+```
+
+Push remaining files to Github
 {% endtab %}
 {% endtabs %}
+
+## Compiling Nvidia SDK
+
+## Processing Image Frames
+
+ To run the sample on PNG image
+
+```lua
+ ./sample_sign_classifier --path=/path/image.png --input-type=imagefile
+```
+
+To run the sample on png image with Visualization
+
+```lua
+ ./sample_sign_classifier --path=/path/image.png --input-type=imagefile --viz true
+```
+
+## Project Organization
+
+Files are organized as given below. The repository has the following pre-compiled assets :
+
+1. Animals
+2. Cars and mopeds 
+3. Buildings
+4. Road builder
+5. Rocks 
+6. Trees 
+7. Shrubs and various kind of Grass
+8. car material packs
+9. Water simulation
+10. Weather simulation assets
+11. Dashboard for experimentation management
+
+In addition to this, the repository has all the codes require to infer on the images as well as video.
+
+Following is the output of the command `tree -d -L 2.` It shows the directory structure up to level 2.
+
+```lua
+├── Config # Unreal configuration file
+├── Content
+│   ├── AnimalVarietyPack # Animals
+│   ├── AutomotiveMats424 # Automotive materials like glass, metals
+│   ├── cinematics # Camera and recording related dashboards
+│   ├── City # Buildings and Homes
+│   ├── City_Pack # Buildings and Homes
+│   ├── EssentialTreeKit # Variety of trees
+│   ├── Experiment # Roadsigns, patchs, postrs, 
+│   ├── Foliage # Flower shrub
+│   ├── Geometry # Landscape
+│   ├── GT_Free2020 # car esseentials
+│   ├── Maps # MAP-1 and MAP-2 are located here
+│   ├── MegascansMeadowPack # Gradss, shrubs etc 
+│   ├── MRT # modular road tool for constructing custom road
+│   ├── rocks # rock and boulders
+│   ├── Vehicles # bikes and other vehicles
+│   ├── VehicleVarietyPack # various 4 wheeler vehicles
+│   ├── WaterPlane # water simulation assets
+│   └── Weather #  wather effect such as Wind, leaf fall and lightning
+├── docs # Documentation
+├── scripts # C++ scripts for video and frame based inference
+└── tools # Swiss army knife toolbox for windows file management
+```
 
 ## This documentation covers a vital  aspect of the project including ;
 

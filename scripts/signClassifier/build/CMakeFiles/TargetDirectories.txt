@@ -1,0 +1,3 @@
+/usr/local/driveworks-2.2/samples/src/waitcondition/signClassifier/build/CMakeFiles/rebuild_cache.dir
+/usr/local/driveworks-2.2/samples/src/waitcondition/signClassifier/build/CMakeFiles/sample_sign_classifier.dir
+/usr/local/driveworks-2.2/samples/src/waitcondition/signClassifier/build/CMakeFiles/edit_cache.dir

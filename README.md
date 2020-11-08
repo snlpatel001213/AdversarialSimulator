@@ -89,12 +89,26 @@ Push remaining files to Github
 
 ## Compiling Nvidia SDK
 
-## Processing Image Frames
-
- To run the sample on PNG image
+Post-installation of Drive SDK, samples can be found at `/usr/local/driveworks-2.2/samples/build/src/`
 
 ```lua
- ./sample_sign_classifier --path=/path/image.png --input-type=imagefile
+cmake -DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda-9.2  \
+  -DSDK_NO_GITVERSION_BUILD=true    -DCMAKE_BUILD_TYPE=Release  \
+  -DSDK_BUILD_EXPERIMENTAL=false    -DSDK_USE_CCACHE=true \
+  -DSDK_BUILD_{DEMOS,BENCHMARKS,PACKAGE}=false  \
+  -DSDK_BUILD_DOCUMENTATION=false    -DSDK_BUILD_BENCHMARKS=false  \
+  -DSDK_BUILD_SAMPLES=true    -DCMAKE_C_COMPILER=gcc-6  \
+  -DCMAKE_CXX_COMPILER=g++-6    -DSDK_USE_CCACHE:BOOL=ON ..
+
+cmake --build .
+```
+
+## Processing Image Frames
+
+ To run the sample on PNG image, one must change the Signnet file to accept PNG files insted of the video feeeds, The example file is provided at : 
+
+```lua
+./sample_sign_classifier --model=EU_V2 --offscreen=2 --path=/media/sunil/Shots/directional_light_20_lux/null_real_test.0220.png  --input-type=imagefile 
 ```
 
 To run the sample on png image with Visualization

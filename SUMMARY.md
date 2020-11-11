@@ -6,7 +6,7 @@
 
 * [Installation Procedures](docs/installation-procedures.md)
 * [Setting Up Environment](docs/setting-up-environment/README.md)
-  * [Environment - 1](docs/setting-up-environment/environment-1-1.md)
+  * [Environment - 1](docs/setting-up-environment/environment-1.md)
   * [Environment - 2](docs/setting-up-environment/environment-2.md)
 * [Using Nvidia DRIVE SDK](docs/using-nvidia-drive-sdk.md)
 * [Recording Sessions](docs/recording-sessions.md)

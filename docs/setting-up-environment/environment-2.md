@@ -1,12 +1,28 @@
-# Environment - 1
+# Environment - 2
 
-This environment is well suited for a repetitive set of experimentation over a set of signs. Details of this experiment are as described in the research paper.  
+This environment is comparatively bigger than the environment -1. This environment has  various kinds of assets including
 
-![](../../.gitbook/assets/map1.png)
+1. Two lanes and one lane roads
+2. Uneven terrain
+3. water bodies
+4. sky-scrappers
+5. Small houses
+6. Retail stores
+7. Variety of vehicles
 
-A map of the test facility developed within Unreal Engine. The diagram shows a test track for one traffic sign. All the traffic signs are independently arranged in parallel in a non-occluding fashion. High fidelity environment with Real-time ray tracing simulating shadows and reflection. Fine details like objects 1\) cars and buildings 2\) Traffic sign placed at the end of the track 3\) Holdings 4\) detailed rocks and vegetation with shadows 5\) Realistic vegetation 6\) Asphalt like material for the road with lane markings and 7\) water reflecting sun rays.
+![](../../.gitbook/assets/highresscreenshot00032.png)
 
-![Showing top view of the map created for Adversarial Attack analysis.](../../.gitbook/assets/map1_top.png)
+Showing the intersection of road with various environmental assets around it
 
+![](../../.gitbook/assets/highresscreenshot00036.png)
 
+Showing Road and its various elements such as side markings, text over cross-section, different color of asphalt material.
+
+![](../../.gitbook/assets/highresscreenshot00034.png)
+
+The above diagram shows the bird's eye view of the map. 
+
+![](../../.gitbook/assets/highresscreenshot00035.png)
+
+Shows real-time reflection from the water body. this can be used to simulate the scenario where water reflection potentially blinds the camera's adaptive focus. 
 

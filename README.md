@@ -163,7 +163,14 @@ Following is the output of the command `tree -d -L 2.` It shows the directory st
 └── tools # Swiss army knife toolbox for windows file management
 ```
 
-## Other sign related assets   
+## Other Related Assets   
+
+This project provides all the necessary assets for adversarial simulation. That includes the followings:
+
+*  Road signs with different effects like patches, perturbation.
+*  Any road sign can be modified easily 
+
+![](.gitbook/assets/highresscreenshot00039.png)
 
 ## This documentation covers a vital  aspect of the project including ;
 

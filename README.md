@@ -1,10 +1,8 @@
 # Adversarial Simulator
 
-## Adversarial Simulator
-
 Adversarial Simulator allows one to simulate adversarial attacks in the virtual environment within the Unreal Engine and inference with Nvidia DRIVE SDK. This repository contains the code, assets, example datasets, models, test results, and a video demo for the paper :
 
-## A Simulated Environment Approach to Investigate the effect of Adversarial Perturbations on Traffic Signs
+### A Simulated Environment Approach to Investigate the effect of Adversarial Perturbations on Traffic Signs
 
 | Sunil Patel | Pallab Maji |
 | :---: | :---: |
@@ -197,7 +195,22 @@ Following is the output of the command `tree -d -L 2.` It shows the directory st
 
 This project provides all the necessary assets for adversarial simulation. That includes the followings:
 
-1. **Modular Roads**
-   1. Road signs with different effects like patches, perturbation.
-   2. Any road sign can be modified easily
+* **Modular Roads**
+  1. Road signs with different effects like patches, perturbation.
+  2. Any road sign can be modified easily
+* Animal pack
+  1. It has animals like Fox, Pig, Crow etc..
+* 3D people pack
+  1. It has people with limited motion to check algorithm with people identification
+* Vehicle Variety Pack
+  1. Various kinds of vehicles including cars, Mopeds, Trucks etc..
+* City - object pack
+  * has various objects like house, dustbin, street light, roadsigns etc
+
+## Work In Progress
+
+* [ ] Standalone HTML API based dashboard
+* [ ] More vehicles 
+* [ ] Vehicle Spawning
+* [ ] Central Weather control
 

@@ -198,14 +198,14 @@ This project provides all the necessary assets for adversarial simulation. That 
 * **Modular Roads**
   1. Road signs with different effects like patches, perturbation.
   2. Any road sign can be modified easily
-* Animal pack
+* **Animal Pack**
   1. It has animals like Fox, Pig, Crow etc..
-* 3D people pack
+* **3D People Pack**
   1. It has people with limited motion to check algorithm with people identification
-* Vehicle Variety Pack
+* **Vehicle Variety Pack**
   1. Various kinds of vehicles including cars, Mopeds, Trucks etc..
-* City - object pack
-  * has various objects like house, dustbin, street light, roadsigns etc
+* **City - Object Pack**
+  * has various objects like house, dustbin, street light, roadsigns etc..
 
 ## Work In Progress
 

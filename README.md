@@ -15,6 +15,72 @@ Adversarial Simulator allows one to simulate adversarial attacks in the virtual 
 
 For details related to setting up environments,  Building Nvidia Drive SDK, Recording sessions, and Addons refer to the documentation:  [https://sunil.gitbook.io/adversarial-simulator/](https://sunil.gitbook.io/adversarial-simulator/) 
 
+## This documentation covers a vital  aspect of the project including ;
+
+### 1. [Installation procedures](https://sunil.gitbook.io/adversarial-simulator/docs/installation-procedures)
+
+An Adversarial simulator requires two components to be installed including an Unreal Engine and Nvidia Drive SDK. An Unreal Engine required to generate a real-like scenario.
+
+### 2.  [Setting up the Environment](https://sunil.gitbook.io/adversarial-simulator/docs/setting-up-environment)
+
+Post-installation we require to set up the environment so that different scenarios can be generated. In Unreal Engine, such scenarios are organized in Maps. adversarial Simulator provides two maps. 
+
+#### MAP - 1 
+
+It has basic components for controlled testing, tracks are organized in parallel for a testing plurality of scenarios in parallel, keeping the overall environment the same.  
+
+#### MAP - 2 
+
+It is consisting of vast open land with various objects like buildings, water, over bridges, traffic lights, traffic signals, roadside objects, various kinds of animals, etc. This map can be used for a variety of testing.
+
+### 3. [Compiling Drivenet samples](https://sunil.gitbook.io/adversarial-simulator/docs/using-nvidia-drive-sdk)
+
+Drive net sample comes up with video inference capabilities by default. additionally, if you want to predict Images then you need to modify samples. This section covers all the basic procedure for compilation and modifying the samples to r
+
+### 4. [Add ons ](https://sunil.gitbook.io/adversarial-simulator/docs/add-ons)
+
+This section suggests various objects packs that can be added to the provided maps to create more complex scenarios.
+
+## Project Organization
+
+1. Animals
+2. Cars and mopeds 
+3. Buildings
+4. Road builder
+5. Rocks 
+6. Trees 
+7. Shrubs and various kind of Grass
+8. car material packs
+9. Water simulation
+10. Weather simulation assets
+11. Dashboard for experimentation management
+
+```lua
+├── Config # Unreal configuration file
+├── Content
+│   ├── AnimalVarietyPack # Animals
+│   ├── AutomotiveMats424 # Automotive materials like glass, metals
+│   ├── cinematics # Camera and recording related dashboards
+│   ├── City # Buildings and Homes
+│   ├── City_Pack # Buildings and Homes
+│   ├── EssentialTreeKit # Variety of trees
+│   ├── Experiment # Roadsigns, patchs, postrs, 
+│   ├── Foliage # Flower shrub
+│   ├── Geometry # Landscape
+│   ├── GT_Free2020 # car esseentials
+│   ├── Maps # MAP-1 and MAP-2 are located here
+│   ├── MegascansMeadowPack # Gradss, shrubs etc 
+│   ├── MRT # modular road tool for constructing custom road
+│   ├── rocks # rock and boulders
+│   ├── Vehicles # bikes and other vehicles
+│   ├── VehicleVarietyPack # various 4 wheeler vehicles
+│   ├── WaterPlane # water simulation assets
+│   └── Weather #  wather effect such as Wind, leaf fall and lightning
+├── docs # Documentation
+├── scripts # C++ scripts for video and frame based inference
+└── tools # Swiss army knife toolbox for windows file management
+```
+
 ## Cloning the Code
 
 The experimentation included many high-resolution assets and some-time single file span above 50 MB. 50 Mb is the size limitation imposed by Github for any single fine. Hence to manage larger files this project uses`DVC (Data Version Control)`an Open-source Version Control System for Machine Learning Projects. [`DVC`](https://dvc.org/) allow us to share the large files with git easily
@@ -105,9 +171,11 @@ cmake -DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda-9.2  \
 cmake --build .
 ```
 
+For more details on the installation procedure: [https://sunil.gitbook.io/adversarial-simulator/docs/installation-procedures](https://sunil.gitbook.io/adversarial-simulator/docs/installation-procedures) 
+
 ## Processing Image Frames
 
- To run the sample on PNG image, one must change the Signnet file to accept PNG files insted of the video feeeds, The example file is provided at : 
+ To run the sample on PNG image, one must change the SignNet file to accept PNG files instead of the video feeds, The example file is provided at : 
 
 ```lua
 ./sample_sign_classifier --model=EU_V2 --offscreen=2 --path=/media/sunil/Shots/directional_light_20_lux/null_real_test.0220.png  --input-type=imagefile 
@@ -119,84 +187,18 @@ To run the sample on png image with Visualization
  ./sample_sign_classifier --path=/path/image.png --input-type=imagefile --viz true
 ```
 
-## Project Organization
-
 Files are organized as given below. The repository has the following pre-compiled assets :
-
-1. Animals
-2. Cars and mopeds 
-3. Buildings
-4. Road builder
-5. Rocks 
-6. Trees 
-7. Shrubs and various kind of Grass
-8. car material packs
-9. Water simulation
-10. Weather simulation assets
-11. Dashboard for experimentation management
 
 In addition to this, the repository has all the codes require to infer on the images as well as video.
 
 Following is the output of the command `tree -d -L 2.` It shows the directory structure up to level 2.
-
-```lua
-├── Config # Unreal configuration file
-├── Content
-│   ├── AnimalVarietyPack # Animals
-│   ├── AutomotiveMats424 # Automotive materials like glass, metals
-│   ├── cinematics # Camera and recording related dashboards
-│   ├── City # Buildings and Homes
-│   ├── City_Pack # Buildings and Homes
-│   ├── EssentialTreeKit # Variety of trees
-│   ├── Experiment # Roadsigns, patchs, postrs, 
-│   ├── Foliage # Flower shrub
-│   ├── Geometry # Landscape
-│   ├── GT_Free2020 # car esseentials
-│   ├── Maps # MAP-1 and MAP-2 are located here
-│   ├── MegascansMeadowPack # Gradss, shrubs etc 
-│   ├── MRT # modular road tool for constructing custom road
-│   ├── rocks # rock and boulders
-│   ├── Vehicles # bikes and other vehicles
-│   ├── VehicleVarietyPack # various 4 wheeler vehicles
-│   ├── WaterPlane # water simulation assets
-│   └── Weather #  wather effect such as Wind, leaf fall and lightning
-├── docs # Documentation
-├── scripts # C++ scripts for video and frame based inference
-└── tools # Swiss army knife toolbox for windows file management
-```
 
 ## Other Related Assets   
 
 This project provides all the necessary assets for adversarial simulation. That includes the followings:
 
 *  Road signs with different effects like patches, perturbation.
-*  Any road sign can be modified easily 
+*  Any road sign can be modified easily
 
-![](.gitbook/assets/highresscreenshot00039.png)
-
-## This documentation covers a vital  aspect of the project including ;
-
-### 1. Installation procedures : 
-
-An Adversarial simulator requires two components to be installed including an Unreal Engine and Nvidia Drive SDK. An Unreal Engine required to generate a real-like scenario.
-
-### 2.  Setting up the Environment
-
-Post-installation we require to set up the environment so that different scenarios can be generated. In Unreal Engine, such scenarios are organized in Maps. adversarial Simulator provides two maps. 
-
-#### MAP - 1 
-
-It has basic components for controlled testing, tracks are organized in parallel for a testing plurality of scenarios in parallel, keeping the overall environment the same.  
-
-#### MAP - 2 
-
-It is consisting of vast open land with various objects like buildings, water, over bridges, traffic lights, traffic signals, roadside objects, various kinds of animals, etc. This map can be used for a variety of testing.
-
-### 3. Compiling Drivenet samples
-
-Drive net sample comes up with video inference capabilities by default. additionally, if you want to predict Images then you need to modify samples. This section covers all the basic procedure for compilation and modifying the samples to r
-
-### 4. Add ons 
-
-This section suggests various objects packs that can be added to the provided maps to create more complex scenarios.
+### 
 

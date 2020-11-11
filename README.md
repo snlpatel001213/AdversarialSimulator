@@ -25,11 +25,11 @@ An Adversarial simulator requires two components to be installed including an Un
 
 Post-installation we require to set up the environment so that different scenarios can be generated. In Unreal Engine, such scenarios are organized in Maps. adversarial Simulator provides two maps. 
 
-#### MAP - 1 
+#### 2.1 [MAP - 1 ](https://sunil.gitbook.io/adversarial-simulator/docs/setting-up-environment/environment-2)
 
 It has basic components for controlled testing, tracks are organized in parallel for a testing plurality of scenarios in parallel, keeping the overall environment the same.  
 
-#### MAP - 2 
+#### 2.2 MAP - 2 
 
 It is consisting of vast open land with various objects like buildings, water, over bridges, traffic lights, traffic signals, roadside objects, various kinds of animals, etc. This map can be used for a variety of testing.
 

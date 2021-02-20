@@ -4,10 +4,8 @@ Adversarial Simulator allows one to simulate adversarial attacks in the virtual 
 
 ### A Simulated Environment Approach to Investigate the effect of Adversarial Perturbations on Traffic Signs
 
-| Sunil Patel | Pallab Maji |
-| :---: | :---: |
-| supatel@nvidia.com | pmaji@nvidia.com |
-| Sunil Patel | Pallab Maji |
+Anonymous ICCV submission
+Paper ID 2225 
 
 **Abstract** **-To study the effect of adversarial attack environment must be controlled. Autonomous driving includes mainly 5 phases sense, perceive, map, plan, and Drive. Autonomous Vehicle ‘sense’ the surrounding with the help of Cameras and Lidars. Deep Learning techniques are considered Blackbox and found to be vulnerable to adversarial attacks. In this research, we study the effect of the various known adversarial attack in the Unreal Engine-based high-fidelity real-time raytraced simulated environment. This experiment seeks an answer to questions such as if adversarial attacks work in moving vehicle scenarios and can an unknown network be targeted. We found that the existing Blackbox and Whitebox affects different traffic signs differently. Attack found to be affecting classification in static scenes are not similarly affecting in the moving vehicle scenarios. However, some attacks with barely noticeable perturbations were found to completely block the identification of certain traffic signs. By simulating the interaction of light on Traffic sign have also observed that daylight condition has a significant impact on the performance of the model. Our findings are found to be closely simulating scenarios as found in the real world.**
 
